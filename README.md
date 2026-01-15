@@ -62,15 +62,21 @@ common potential. The more active metal corrodes at an accelerated rate.
 ---
 
 ## Results
-The model predicts:
-- Corrosion potential (Ecorr)
-- Corrosion current density (icorr)
-- Effect of pH on corrosion behavior
-- Transition from activation-controlled to diffusion-controlled corrosion
-- Galvanic interaction between metals
+
+### Effect of pH on Cathodic Reaction
+The cathodic polarization curve shifts with pH due to changes in equilibrium
+potential as predicted by the Nernst equation.
+
+![pH effect on cathodic reaction](figures/pH_effect.png)
+
+### Diffusion-Limited Corrosion
+At high cathodic overpotentials, oxygen reduction becomes diffusion controlled,
+leading to a limiting current density.
+
+![Diffusion-limited corrosion](figures/diffusion_limit.png)
 
 ---
 
-## Author Notes
+## Notes
 This project emphasizes physical understanding, clean numerical modeling,
 and reproducible results over black-box simulation.
